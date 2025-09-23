@@ -596,6 +596,7 @@ input {
     .footer-links ul {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         gap: 15px;
         flex-wrap: wrap;
     }
@@ -623,4 +624,5 @@ input {
         font-size: 0.9rem;
         padding: 10px 0;
     }
+
 }
