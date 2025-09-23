@@ -485,10 +485,6 @@ body {
 
 /* ================= SMALL MOBILE ================= */
 @media (max-width: 480px) {
-    .welcome h1 {
-        font-size: 18px;
-    }
-
     .word {
         font-size: 1.4rem;
     }
@@ -503,4 +499,5 @@ body {
     }
 
 }
+
 
