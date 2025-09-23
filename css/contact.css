@@ -493,6 +493,7 @@ body {
     .footer-links ul {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         gap: 15px;
         flex-wrap: wrap;
     }
@@ -528,4 +529,5 @@ body {
         width: 30px;
         margin: 10px;
     }
+
 }
