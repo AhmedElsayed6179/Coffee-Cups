@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Coffee Cups</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/gallery.css">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome Library (CDN) for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="icons/coffee-cup.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="gallery">
+        <!-- nav bar -->
+        <div class="navigation">
+            <nav class="welcome">
+                <div class="left_side">
+                    <a href="index.html" class="mylink">
+                        <h1>coffee<span>cups</span></h1>
+                    </a>
+                </div>
+                <div class="right_side">
+                    <div id="hamburger" class="hamburger">☰</div>
+                    <div class="links">
+                        <ul>
+                            <li><a href="index.html" class="link">home</a></li>
+                            <li><a href="gallery.html" class="link">gallery</a></li>
+                            <li><a href="contact.html" class="link">about us</a></li>
+                            <li><a href="location.html" class="link">Contact</a></li>
+                            <li><a href="login.html" class="link_login">login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- products -->
+        <section class="products">
+            <div class="texts">
+                <h1>Our Coffee Collection</h1>
+                <p>Discover our selection of premium coffees, carefully roasted to perfection.
+                    <br>From rich espresso blends to smooth, aromatic brews,
+                    <br> every cup is crafted to delight your senses.
+                </p>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <img src="products/espresso.jpg" alt="Espresso">
+                    <h3>Espresso</h3>
+                    <br>
+                    <p>A rich and bold espresso,
+                        <br>perfectly roasted to awaken your senses with every sip.
+                    </p>
+                    <p class="price">$3.50</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="item">
+                    <img src="products/cappuccino2.jpeg" alt="Cappuccino">
+                    <h3>Cappuccino</h3>
+                    <br>
+                    <p>Frothy milk blended with our signature espresso for a creamy,
+                        <br> smooth experience.
+                    </p>
+                    <p class="price">$4.00</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="item">
+                    <img src="products/latte.jpg" alt="Latte">
+                    <h3>Latte</h3>
+                    <br>
+                    <p>A classic latte with silky steamed milk and a delicate layer of foam,
+                        <br>perfect for any time of day.
+                    </p>
+                    <p class="price">$4.50</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="item more-item">
+                    <img src="products/mocha.jpg" alt="Mocha">
+                    <h3>Mocha</h3>
+                    <br>
+                    <p>Indulge in the harmony of chocolate and coffee,
+                        <br> topped with creamy froth for a sweet treat.
+                    </p>
+                    <p class="price">$5.00</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="item more-item">
+                    <img src="products/Americano.jpg" alt="Americano">
+                    <h3>Americano</h3>
+                    <br>
+                    <p>A smooth and bold coffee,
+                        <br>diluted with hot water for a lighter yet flavorful cup.
+                    </p>
+                    <p class="price">$3.00</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="item more-item">
+                    <img src="products/macchiato.jpg" alt="Macchiato">
+                    <h3>Macchiato</h3>
+                    <br>
+                    <p>Espresso with a touch of steamed milk,
+                        <br> offering a perfect balance of strength and creaminess.
+                    </p>
+                    <p class="price">$4.20</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+            </div>
+            <!-- coming soon -->
+            <div class="coming-soon" style="display: none;">
+                <p>More products coming soon… Stay tuned!</p>
+            </div>
+            <!-- show more -->
+            <div class="btn-container">
+                <button id="toggleBtn">▼ Show More</button>
+            </div>
+        </section>
+    </div>
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- About -->
+            <div class="footer-about">
+                <h2>Coffee<span>Cups</span></h2>
+                <p>Your daily dose of fresh coffee & vibes ☕</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">about us</a></li>
+                    <li><a href="location.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 <a href="index.html"><span><b>CoffeeCups.</b></span></a> All Rights Reserved.</p>
+            <p>Website By : <a href="https://ahmedelsayed6179.github.io/Ahmed-Websites/" target="_blank"><span><b>Ahmed
+                            Elsayed.</b></span></a></p>
+        </div>
+    </footer>
+    <!-- Linked external JavaScript file named gallery.js -->
+    <script src="java script/gallery.js"></script>
+</body>
+
+</html>
