@@ -427,6 +427,10 @@ body {
         border-bottom: none;
     }
 
+    .links a::after{
+        display: none;
+    }
+
     @keyframes slideDown {
         from {
             opacity: 0;
@@ -510,6 +514,7 @@ body {
     }
 
 }
+
 
 
 
