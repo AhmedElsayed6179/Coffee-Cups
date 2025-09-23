@@ -324,12 +324,22 @@ body {
     color: var(--navbar-color);
 }
 
+.footer-social {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
 .social-icons a {
-    display: inline-block;
-    margin-right: 15px;
     color: #fff;
     font-size: 18px;
     transition: 0.3s;
+    margin: 2px;
 }
 
 .social-icons a:hover {
@@ -531,3 +541,4 @@ body {
     }
 
 }
+
