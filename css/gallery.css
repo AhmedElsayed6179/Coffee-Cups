@@ -558,6 +558,7 @@ body {
     .footer-links ul {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         gap: 15px;
         flex-wrap: wrap;
     }
@@ -565,4 +566,5 @@ body {
     .social-icons {
         margin-top: 10px;
     }
+
 }
