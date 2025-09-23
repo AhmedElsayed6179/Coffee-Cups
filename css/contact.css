@@ -508,7 +508,8 @@ body {
         flex-wrap: wrap;
     }
 
-    .social-icons {
+   .footer-social .social-icons {
+        justify-content: center;
         margin-top: 10px;
     }
 }
@@ -541,4 +542,5 @@ body {
     }
 
 }
+
 
