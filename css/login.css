@@ -688,10 +688,6 @@ body {
 
 /* ==================== VERY SMALL PHONES ==================== */
 @media (max-width: 480px) {
-    .welcome h1 {
-        font-size: 18px;
-    }
-
     .login_first .first {
         max-width: 300px;
         padding: 20px 15px;
@@ -711,4 +707,5 @@ body {
     }
 
 }
+
 
