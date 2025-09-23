@@ -665,6 +665,7 @@ body {
     .footer-links ul {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         gap: 15px;
         flex-wrap: wrap;
     }
@@ -697,4 +698,5 @@ body {
         font-size: 15px;
         padding: 8px;
     }
+
 }
