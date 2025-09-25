@@ -23,13 +23,20 @@ document.addEventListener("DOMContentLoaded", () => {
     "toggleConfirmPassword"
   );
 
+// General toggle function
   function toggleVisibility(input, toggleIcon) {
-    const type =
-      input.getAttribute("type") === "password" ? "text" : "password";
-    input.setAttribute("type", type);
-    toggleIcon.classList.toggle("fa-eye-slash");
+    if (input.type === "password") {
+      input.type = "text";
+      toggleIcon.classList.remove("fa-eye");
+      toggleIcon.classList.add("fa-eye-slash");
+    } else {
+      input.type = "password";
+      toggleIcon.classList.remove("fa-eye-slash");
+      toggleIcon.classList.add("fa-eye");
+    }
   }
 
+  // Event listeners
   togglePassword.addEventListener("click", () => {
     toggleVisibility(password, togglePassword);
   });
@@ -149,4 +156,5 @@ window.addEventListener("load", () => {
       preloader.style.display = "none";
     }, 500);
   }, 500);
+
 });
