@@ -6,8 +6,10 @@ togglePassword.addEventListener("click", function () {
   const type =
     password.getAttribute("type") === "password" ? "text" : "password";
   password.setAttribute("type", type);
+  this.classList.toggle("fa-eye");
   this.classList.toggle("fa-eye-slash");
 });
+
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector(".first");
   form.classList.add("show");
@@ -77,3 +79,4 @@ window.addEventListener("load", () => {
     }, 500);
   }, 500);
 });
+
